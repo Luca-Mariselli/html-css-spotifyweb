@@ -15,6 +15,13 @@ html{
 .white{
     color: white;
 }
+.grey{
+    color: grey;
+}
+
+.font-smaller{
+    font-size: 10px;
+}
 
 .font-small{
     font-size: 12px;
@@ -104,17 +111,11 @@ html{
 .navbar{
     background-color: #000000;
     height: 90vh;
-    min-width: 288px;
+    width: 288px;
     display: flex;
     flex-direction: column;
-    color: white;
+    color: grey;
     overflow: auto;
-}
-
-.circle-margin{
-    border: white 2px solid;
-    border-radius: 50%;
-    padding: 2px;
 }
 
 .second-item{
@@ -156,7 +157,7 @@ html{
 
 .hi-bar-elements{
     padding: 1rem;
-    color: white;
+    color: grey;
 }
 
 .recently-f{
@@ -303,3 +304,72 @@ footer{
     height: 5px;
     border-radius: 10px;
 }
+
+.navbar-item{
+    display:flex;
+}
+
+.align-center{
+    align-self: center;
+}
+
+.width-icons{
+    width: 25px;
+}
+
+.justify-center{
+    justify-self: center;
+}
+
+.none{
+    display: none;
+}
+
+/* HOVER */
+.hoverable:hover{
+    color: white;
+}
+
+.upgrade:hover{
+    padding: 1.2rem;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar {
+      width: 60px;
+    }
+
+    .navbar-hide{
+        display: none;
+    }
+
+    .width-icons{
+        margin: 1rem auto;
+    }
+
+
+    .upgrade-bar{
+        width: calc(100vw - 60px);
+    }
+
+    .scrollable{
+        width: calc(100vw - 60px);
+    }
+
+    .icons-foot{
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: -0.5rem;
+    }
+
+    .subtitle{
+        margin-bottom: 1rem;
+    }
+
+    .none{
+        display: block;
+        width: 70%;
+        margin: 1rem auto;
+    }
+  }
