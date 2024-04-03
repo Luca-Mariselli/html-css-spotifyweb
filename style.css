@@ -20,6 +20,16 @@ html{
     font-size: 12px;
 }
 
+.font-medium{
+    font-size: 20px;
+}
+.font-big{
+    font-size: 30px;
+}
+.font-plus{
+    font-size: 50px;
+}
+
 .img-sizing{
     width: 70%;
 }
@@ -60,11 +70,25 @@ html{
     margin-left: 2rem;
 }
 
+.margin-right05{
+    margin-right: 0.5rem;
+}
 .margin-right1{
     margin-right: 1rem;
 }
 .margin-right2{
     margin-right: 2rem;
+}
+
+.margin-top1{
+    margin-top: 1rem;
+}
+
+.margin-bot1{
+    margin-bottom: 1rem;
+}
+.margin-bot2{
+    margin-bottom: 2rem;
 }
 
 .container{
@@ -76,6 +100,7 @@ html{
     display: flex;
 }
 
+
 .navbar{
     background-color: #000000;
     height: 90vh;
@@ -83,6 +108,13 @@ html{
     display: flex;
     flex-direction: column;
     color: white;
+    overflow: auto;
+}
+
+.circle-margin{
+    border: white 2px solid;
+    border-radius: 50%;
+    padding: 2px;
 }
 
 .second-item{
@@ -113,11 +145,13 @@ html{
     background-color: #141922;
     height: 80vh;
     width: 100%;overflow: auto;
+    z-index: 97;
 }
 
 .hi-bar{
     display:flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .hi-bar-elements{
@@ -136,7 +170,7 @@ html{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: calc((80vw - 7rem) / 6);
+    width: 240px;
     
 }
 
@@ -146,6 +180,7 @@ footer{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .created-f{
@@ -158,7 +193,7 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: calc((100vw - 7rem) / 6);
+    width: 240px;
     
 }
 
@@ -180,27 +215,33 @@ footer{
 
 .sidefoot-l{
     width: 20%;
-    height: auto;
+    height: 10vh;
     display: flex;
     padding: 1rem;
-    justify-content: space-between;
+    justify-content: left;
 }
 .sidefoot-r{
     width: 20%;
-    height: auto;
+    height: 10vh;
     display: flex;
     padding: 1rem;
     justify-content: space-around;
     align-items: center;
+    justify-content: right;
 }
 
 .centerfoot{
     width: 60%;
-    height: 80%;
+    height: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.cover{
+    width: 60px;
+    align-self: center;
 }
 
 .sinister{
@@ -221,7 +262,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 10vw;
+    width: 10rem;
     margin-top: 1rem;
 }
 
@@ -250,14 +291,14 @@ footer{
 }
 
 .barempty2{
-    width: 7vw;
+    width: 135px;
     background-color: grey;
     height: 5px;
     border-radius: 10px;
 }
 
 .barfull2{
-    width: 2vw;
+    width: 38px;
     background-color: white;
     height: 5px;
     border-radius: 10px;
