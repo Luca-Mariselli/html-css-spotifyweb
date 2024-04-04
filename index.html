@@ -1,154 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/e099dc27ac.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e099dc27ac.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div class="container">
-        <div class="main">
-            <div class="navbar">
-                <img class="img-sizing padding1 margin-bot1 navbar-hide" src="./img/logo.svg" alt="">
-                <img class="none" src="./img/logo-small.svg" alt="">
-                <div class="navbar-item margin-left1 hoverable"><i class="fa-solid fa-house font-medium justify-center margin-right05 width-icons"></i><div class="margin-bot1 navbar-hide">Home</div></div>
-                <div class="navbar-item margin-left1 hoverable"><i class="fa-solid fa-magnifying-glass font-medium margin-right05 width-icons"></i><div class="margin-bot1 navbar-hide">Cerca</div></div>
-                <div class="navbar-item margin-left1 hoverable"><i class="fa-regular fa-bookmark font-medium margin-right05 width-icons"></i><div class="margin-bot2 navbar-hide">La tua libreria</div></div>
-                <div class="padding-left1 margin-bot1 bold navbar-hide white">PLAYLIST</div>
-                <div class="navbar-item margin-left1 margin-bot1 navbar-hide hoverable"><i class="fa-solid fa-square-plus font-plus margin-right05" style="color: #c0c0c0;"></i><div class="align-center">Crea Playlist</div></div>
-                <div class="padding-left1 margin-bot1 navbar-hide hoverable">Nome Playlist</div>
-                <div class="padding-left1 margin-bot1 navbar-hide hoverable">Nome Playlist</div>
-                <div class="padding-left1 margin-bot1 navbar-hide hoverable">Nome Playlist</div>
-                <div class="padding-left1 margin-bot1 navbar-hide hoverable">Nome Playlist</div>
-                <div class="padding-left1 margin-bot1 navbar-hide hoverable">Nome Playlist</div>
-                <div class="padding-left1 margin-bot1 navbar-hide hoverable">Nome Playlist</div>
-                <div class="padding-left1 margin-bot1 navbar-hide hoverable">Nome Playlist</div>
+      <div class="main">
+        <!-- Left Navbar -->
+        <div class="navbar">
+          <img
+            class="img-sizing padding1 margin-bot1 first-hide"
+            src="./img/logo.svg"
+            alt=""
+          />
+          <img class="none" src="./img/logo-small.svg" alt="" />
+          <div
+            class="margin-bot05 margin-top05 navbar-item hoverable greenbar-l"
+          >
+            <i
+              class="fa-solid fa-house font-medium justify-center margin-right05 width-icons"
+            ></i>
+            <div class="first-hide">Home</div>
+          </div>
+          <div
+            class="margin-bot05 margin-top05 navbar-item hoverable greenbar-l"
+          >
+            <i
+              class="fa-solid fa-magnifying-glass font-medium margin-right05 width-icons"
+            ></i>
+            <div class="first-hide">Cerca</div>
+          </div>
+          <div
+            class="margin-bot05 margin-top05 navbar-item hoverable greenbar-l"
+          >
+            <i
+              class="fa-regular fa-bookmark font-medium margin-right05 width-icons"
+            ></i>
+            <div class="first-hide">La tua libreria</div>
+          </div>
+          <div
+            class="padding-left1 margin-top1 margin-bot1 bold first-hide white"
+          >
+            PLAYLIST
+          </div>
+          <div
+            class="navbar-item margin-left1 margin-bot1 first-hide hoverable"
+          >
+            <i
+              class="fa-solid fa-square-plus font-plus margin-right05"
+              style="color: #c0c0c0"
+            ></i>
+            <div class="align-center">Crea Playlist</div>
+          </div>
+          <div class="padding-left1 margin-bot1 first-hide hoverable">
+            Nome Playlist
+          </div>
+          <div class="padding-left1 margin-bot1 first-hide hoverable">
+            Nome Playlist
+          </div>
+          <div class="padding-left1 margin-bot1 first-hide hoverable">
+            Nome Playlist
+          </div>
+          <div class="padding-left1 margin-bot1 first-hide hoverable">
+            Nome Playlist
+          </div>
+          <div class="padding-left1 margin-bot1 first-hide hoverable">
+            Nome Playlist
+          </div>
+          <div class="padding-left1 margin-bot1 first-hide hoverable">
+            Nome Playlist
+          </div>
+          <div class="padding-left1 margin-bot1 first-hide hoverable">
+            Nome Playlist
+          </div>
 
-                <div class="navbar-item margin-left1 margin-top-a hoverable"><i class="fa-sharp fa-solid fa-arrow-down"></i><div class="padding-left1 margin-top-a margin-bot1 navbar-hide">Installa app</div></div>
-                <hr class="navbar-hide">
-                <div class="navbar-item margin-left1 margin-top1 white"><i class="fa-regular fa-user"></i><div class="padding-left1 margin-bot1 bold navbar-hide">John Doe</div></div>
+          <div class="navbar-lower-item margin-top-a hoverable">
+            <i class="fa-sharp fa-solid fa-arrow-down width-icons"></i>
+            <div class="padding-left1 margin-top-a margin-bot1 first-hide">
+              Installa app
             </div>
-
-            <div class="second-item">
-                <div class="upgrade-bar">
-                    <button class="upgrade margin-left-a bold">EFFETTUA L'UPGRADE</button>
-                </div>
-
-                <div class="scrollable">
-                    <div class="hi-bar">
-                        <div class="hi-bar-elements font-small bold hoverable">IN EVIDENZA</div>
-                        <div class="hi-bar-elements font-small bold hoverable">PODCAST</div>
-                        <div class="hi-bar-elements font-small bold hoverable">CLASSIFICHE</div>
-                        <div class="hi-bar-elements font-small bold hoverable">GENERI E MOOD</div>
-                        <div class="hi-bar-elements font-small bold hoverable">NUOVE USCITE</div>
-                        <div class="hi-bar-elements font-small bold hoverable">SCOPRI</div>
-                    </div>
-                    <div class="played bold white padding1 margin-left1 font-medium">Recently Played</div>
-                    <div class="recently-f">
-                        <div class="square-items">
-                            <img src="./img/metal_lifting.jpg" alt="">
-                            <div class="bold white padding-top1">Heavy Metal</div>
-                            <div class="font-small white padding-top05 subtitle">Subtitle</div>
-                        </div>
-                        <div class="square-items">
-                            <img src="./img/stranger.jpeg" alt="">
-                            <div class="bold white padding-top1">Heavy Metal</div>
-                            <div class="font-small white padding-top05 subtitle">Subtitle</div>
-                        </div>
-                        <div class="square-items">
-                            <img src="./img/aquietplace.jpeg" alt="">
-                            <div class="bold white padding-top1">Heavy Metal</div>
-                            <div class="font-small white padding-top05 subtitle">Subtitle</div>
-                        </div>
-                        <div class="square-items">
-                            <img src="./img/split.jpeg" alt="">
-                            <div class="bold white padding-top1">Heavy Metal</div>
-                            <div class="font-small white padding-top05 subtitle">Subtitle</div>
-                        </div>
-                        <div class="square-items">
-                            <img src="./img/cure.jpeg" alt="">
-                            <div class="bold white padding-top1">Heavy Metal</div>
-                            <div class="font-small white padding-top05 subtitle">Subtitle</div>
-                        </div>
-                        <div class="square-items">
-                            <img src="./img/sinister.jpeg" alt="">
-                            <div class="bold white padding-top1">Heavy Metal</div>
-                            <div class="font-small white padding-top05 subtitle">Subtitle</div>
-                        </div>
-                    </div>
-
-                    <div class="played bold white padding-left1 padding-top1 margin-left1 font-medium">Creato per John Doe</div>
-                    <div class="font-small grey padding-left1 padding-top05 margin-left1">Piu ascolti, piu accurati saranno i suggerimenti.</div>
-                    <div class="created-f">
-                        <div class="square-items2">
-                            <img src="./img/radar.jpeg" alt="">
-                            <div class="bold white padding-top1">Release Radar</div>
-                        </div>
-                        <div class="square-items2 margin-left1">
-                            <img src="./img/mixdaily.jpeg" alt="">
-                            <div class="bold white padding-top1">Daily Mix 1</div>
-                        </div>
-                    </div>
-
-                    <div class="played bold white padding-left1 padding-top1 margin-left1 font-medium">Artisti piu popolari</div>
-                    <div class="font-small white padding-left1 padding-top05 margin-left1">Piu ascolti, piu accurati saranno i suggerimenti.</div>
-                    <div class="created-f">
-                        <div class="square-items2">
-                            <div class="rounded1"></div>
-                            <div class="bold white padding-top1">Lana Del Rey</div>
-                        </div>
-                        <div class="square-items2 margin-left1">
-                            <div class="rounded2"></div>
-                            <div class="bold white padding-top1">Ludovico Einaudi</div>
-                        </div>
-                    </div>
-
-                </div>
+          </div>
+          <hr class="first-hide" />
+          <div class="navbar-item margin-top1 white">
+            <i class="fa-regular fa-user width-icons"></i>
+            <div class="padding-left1 margin-bot1 bold first-hide">
+              John Doe
             </div>
+          </div>
         </div>
-        
-        <footer>
-            <div class="sidefoot-l">
-                <div class="cover"><img class="cover" src="./img/sinister.jpeg" alt=""></div>
-                <div class="sinister margin-left1">
-                    <div class="white bold font-small">Sinister</div>
-                    <div class="grey font-smaller">Brano nome</div>
-                </div>
-                <div class="icons-foot margin-left2">
-                    <i class="fa-regular fa-heart margin-left-a align-self grey"></i>
-                    <i class="fa-regular fa-folder padding-left1 align-self grey"></i>
-                </div>
+        <!-- /Left Navbar -->
+
+        <div class="second-item">
+          <!-- Top bar -->
+          <div class="upgrade-bar">
+            <button class="upgrade margin-left-a bold">
+              EFFETTUA L'UPGRADE
+            </button>
+          </div>
+          <!-- /Top bar -->
+
+          <!-- Main Section -->
+          <div class="scrollable">
+            <!-- Hi bar -->
+            <div class="hi-bar">
+              <div class="hi-bar-elements font-small bold hoverable greenbar-b">
+                IN EVIDENZA
+              </div>
+              <div class="hi-bar-elements font-small bold hoverable greenbar-b">
+                PODCAST
+              </div>
+              <div class="hi-bar-elements font-small bold hoverable greenbar-b">
+                CLASSIFICHE
+              </div>
+              <div class="hi-bar-elements font-small bold hoverable greenbar-b">
+                GENERI E MOOD
+              </div>
+              <div class="hi-bar-elements font-small bold hoverable greenbar-b">
+                NUOVE USCITE
+              </div>
+              <div class="hi-bar-elements font-small bold hoverable greenbar-b">
+                SCOPRI
+              </div>
             </div>
-            <div class="centerfoot">
-                <div class="player margin-top1">
-                    <i class="fa-solid fa-shuffle white"></i>
-                    <i class="fa-solid fa-backward white"></i>
-                    <i class="fa-solid fa-play white"></i>
-                    <i class="fa-solid fa-forward-step white"></i>
-                    <i class="fa-solid fa-rotate-right white"></i>
-                </div>
-                <div class="playbar margin-bot1">
-                   <div class="timebar">
-                        <div class="font-small white margin-right1 bold">0:25</div>
-                        <div class="barempty">
-                            <div class="barfull"></div>
-                        </div>
-                        <div class="font-small white margin-left1 bold">4:35</div>                    
-                   </div>
-                   
-                </div>
+
+            <!-- Recently Played -->
+            <div class="played bold white padding1 margin-left1 font-medium">
+              Recently Played
             </div>
-            <div class="sidefoot-r">
-                <i class="fa-solid fa-list-ul margin-right1 white"></i>
-                <i class="fa-solid fa-tv margin-right1 white"></i>
-                <i class="fa-solid fa-volume-high margin-right1 white"></i>
-                <div class="barempty2">
-                    <div class="barfull2"></div>
+            <div class="recently-f">
+              <div class="square-items">
+                <div class="img240">
+                  <i class="fa-solid fa-play white font-plus positioning"></i
+                  ><img
+                    class="img-hover img240"
+                    src="./img/metal_lifting.jpg"
+                    alt=""
+                  />
                 </div>
+                <div class="bold white padding-top1">Heavy Metal</div>
+                <div class="font-small white padding-top05 subtitle">
+                  Subtitle
+                </div>
+              </div>
+              <div class="square-items">
+                <div class="img240">
+                  <i class="fa-solid fa-play white font-plus positioning"></i
+                  ><img
+                    class="img-hover img240"
+                    src="./img/stranger.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="bold white padding-top1">Heavy Metal</div>
+                <div class="font-small white padding-top05 subtitle">
+                  Subtitle
+                </div>
+              </div>
+              <div class="square-items">
+                <div class="img240">
+                  <i class="fa-solid fa-play white font-plus positioning"></i
+                  ><img
+                    class="img-hover img240"
+                    src="./img/aquietplace.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="bold white padding-top1">Heavy Metal</div>
+                <div class="font-small white padding-top05 subtitle">
+                  Subtitle
+                </div>
+              </div>
+              <div class="square-items">
+                <div class="img240">
+                  <i class="fa-solid fa-play white font-plus positioning"></i
+                  ><img
+                    class="img-hover img240"
+                    src="./img/split.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="bold white padding-top1">Heavy Metal</div>
+                <div class="font-small white padding-top05 subtitle">
+                  Subtitle
+                </div>
+              </div>
+              <div class="square-items">
+                <div class="img240">
+                  <i class="fa-solid fa-play white font-plus positioning"></i
+                  ><img class="img-hover img240" src="./img/cure.jpeg" alt="" />
+                </div>
+                <div class="bold white padding-top1">Heavy Metal</div>
+                <div class="font-small white padding-top05 subtitle">
+                  Subtitle
+                </div>
+              </div>
+              <div class="square-items">
+                <div class="img240">
+                  <i class="fa-solid fa-play white font-plus positioning"></i
+                  ><img
+                    class="img-hover img240"
+                    src="./img/sinister.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="bold white padding-top1">Heavy Metal</div>
+                <div class="font-small white padding-top05 subtitle">
+                  Subtitle
+                </div>
+              </div>
             </div>
-        </footer>
+
+            <!-- Created for -->
+            <div
+              class="played bold white padding-left1 padding-top1 margin-left1 font-medium"
+            >
+              Creato per John Doe
+            </div>
+            <div
+              class="font-small grey padding-left1 padding-top05 margin-left1 played"
+            >
+              Piu ascolti, piu accurati saranno i suggerimenti.
+            </div>
+            <div class="created-f">
+              <div class="square-items2">
+                <div class="img240">
+                  <i class="fa-solid fa-play white font-plus positioning"></i
+                  ><img
+                    class="img-hover img240"
+                    src="./img/radar.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="title bold white padding-top1">Release Radar</div>
+              </div>
+              <div class="square-items2 margin-left1">
+                <div class="img240">
+                  <i class="fa-solid fa-play white font-plus positioning"></i
+                  ><img
+                    class="img-hover img240"
+                    src="./img/mixdaily.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="bold white padding-top1">Daily Mix 1</div>
+              </div>
+            </div>
+
+            <!-- Popular -->
+            <div
+              class="played bold white padding-left1 padding-top1 margin-left1 font-medium"
+            >
+              Artisti piu popolari
+            </div>
+            <div
+              class="font-small white padding-left1 padding-top05 margin-left1 played"
+            >
+              Piu ascolti, piu accurati saranno i suggerimenti.
+            </div>
+            <div class="created-f">
+              <div class="square-items2">
+                <div class="rounded1 img-hover">
+                  <i class="fa-solid fa-play white font-plus positioning2"></i>
+                </div>
+                <div class="title bold white padding-top1">Lana Del Rey</div>
+              </div>
+              <div class="square-items2 margin-left1">
+                <div class="rounded2 img-hover">
+                  <i class="fa-solid fa-play white font-plus positioning2"></i>
+                </div>
+                <div class="bold white padding-top1">Ludovico Einaudi</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Main Section -->
+
+      <!-- Footer  -->
+      <footer>
+        <div class="sidefoot-l">
+          <div class="cover">
+            <img class="cover" src="./img/sinister.jpeg" alt="" />
+          </div>
+          <div class="sinister margin-left1 second-hide">
+            <div class="white bold font-small">Sinister</div>
+            <div class="grey font-smaller hoverable">Brano nome</div>
+          </div>
+          <div class="icons-foot margin-left2">
+            <i
+              class="fa-regular fa-heart margin-left-a align-center grey hoverable"
+            ></i>
+            <i
+              class="fa-regular fa-folder padding-left1 align-center grey hoverable"
+            ></i>
+          </div>
+        </div>
+        <div class="centerfoot">
+          <div class="player margin-top1">
+            <i class="fa-solid fa-shuffle white"></i>
+            <i class="fa-solid fa-backward white"></i>
+            <i class="fa-solid fa-play white"></i>
+            <i class="fa-solid fa-forward-step white"></i>
+            <i class="fa-solid fa-rotate-right white"></i>
+          </div>
+          <div class="playbar margin-bot1">
+            <div class="timebar">
+              <div class="font-small white margin-right1 bold">0:25</div>
+              <div class="barempty">
+                <div class="barfull"></div>
+              </div>
+              <div class="font-small white margin-left1 bold">4:35</div>
+            </div>
+          </div>
+        </div>
+        <div class="sidefoot-r">
+          <i class="fa-solid fa-list-ul margin-right1 white"></i>
+          <i class="fa-solid fa-tv margin-right1 white"></i>
+          <i class="fa-solid fa-volume-high margin-right1 white"></i>
+          <div class="barempty2 first-hide">
+            <div class="barfull2"></div>
+          </div>
+        </div>
+      </footer>
+      <!-- /Footer -->
     </div>
-</body>
+  </body>
 </html>
